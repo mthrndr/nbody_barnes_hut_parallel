@@ -1,0 +1,7 @@
+cabal-version: 3.0
+name:          nbody-barnes-hut
+version:       0.1.0.0
+
+executable nbody_barnes_hut
+  main-is:       nbody_barnes_hut.hs
+  build-depends: base, vector, parallel
